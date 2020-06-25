@@ -1,0 +1,48 @@
+.div_Form {
+    width: 33.33%;
+    padding: 15px 25px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px lightgray;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3vw;
+    color: black;
+}
+
+.div_Campo {
+    margin: 10px 0;
+}
+
+.div_Campo label {
+    float: left;
+    font-size: 1.2vw;
+    margin-bottom: 5px;
+}
+
+.div_Campo input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    font-size: 1.2vw;
+}
+
+button {
+    width: 30%;
+    font-size: 1.1vw;
+    font-weight: bold;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 15px auto;
+}
